@@ -1,0 +1,421 @@
+
+#wrapper {
+	width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+body {
+	background-image: url("images/background.png");	
+	background-repeat: repeat-x;
+}
+
+header {  	 	
+  height: 42px;    	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+	list-style: none;		
+}
+
+a {
+	text-decoration: none;
+}
+
+hr.solid {
+	border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+hr.dashed {
+	border: 0;
+  height: 0;
+  border-top: 1px dashed rgba(0, 0, 0, 0.1);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+}
+
+.header_menu {	
+	width: 960px;
+	margin: 0 auto;		 
+}
+
+.header_menu_item {
+	font-size: 14px;  
+	color: rgb(84, 122, 205);
+	font-weight: bold;
+	text-align: left;
+	padding-right: 25px;
+	display: inline; 
+}
+
+.active {	
+  color: rgb(233, 121, 222);  	
+}
+
+.left_side {
+	float: left;	
+}
+
+.right_side {
+	float: right;	
+}
+
+.middle {		
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.round_white_block {
+	background-color: white;
+  border-radius: 10px;
+  padding: 10px;  	
+}
+
+.share {
+	margin: 10px 0px;
+	height: 30px;
+	padding: 20px 10px 10px 10px;	
+}
+
+.share_text {		
+	font-size: 26px;
+  font-family: "Trebuchet MS";
+  color: rgb(84, 122, 205);
+  font-weight: bold;
+  line-height: 0.692;
+  text-align: left;
+  text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.235);  	
+}
+
+.table {
+  display: table;		
+}
+
+.row {
+	display: table-row;
+}
+
+.cell {
+	display: table-cell;
+	padding: 5px;
+}
+
+.location, .show_more {	
+	text-align: center;
+	height: 99px;		
+	padding: 10px 5px 5px 5px;
+}
+
+.location_text {
+  font-size: 17px;
+  font-family: "Helvetica Neue";
+  color: rgb(89, 89, 89);
+  line-height: 1;  	 	
+}
+
+.location_city {  
+  font-size: 20px;
+  font-family: "Helvetica Neue";
+  color: rgb(233, 121, 222);
+  line-height: 0.85;
+}
+
+#location_city p img {
+	vertical-align: middle;	
+}
+
+.show_more_text {	
+  font-size: 16px;
+  font-family: "Helvetica Neue";
+  color: rgb(126, 176, 232);
+  line-height: 1.063;  
+  text-shadow: 0.5px 0.866px 2px rgba(255, 255, 255, 0.325);
+}
+
+.content_block {
+  width: 480px;	
+}
+
+.content_look_around_block {
+  padding: 10px;
+}
+
+
+.list {
+	background-image: url("images/bluebuttoncontainerbackground.png");
+	height: 188px;
+	width: 477px;
+	border-radius: 10px;
+	bottom: 60px;
+	position: absolute;
+}
+
+.list ul li {
+  font-size: 14px;
+  font-family: "Helvetica Neue";
+  color: rgb(91, 102, 127);
+  line-height: 2;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.rose_digit {	
+  font-size: 21px;
+  font-family: "Trebuchet MS";
+  color: rgb(233, 121, 222);
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.333;
+  text-align: left;
+}
+
+#why_cupid_button {
+	position: absolute;		
+	left: 165px;	
+	top: 130px;
+	width: 161px;
+	height: 42px;	
+}
+
+.normal {
+	background-image: url("images/roselineblock.png");
+}
+
+.wide {
+	background-image: url("images/wideroselineblock.png");
+}
+
+.rose_line_block {
+	position: relative;	
+	background-repeat: no-repeat;
+	left: 20px;
+	height: 60px;
+	width: 350px;
+}
+
+.rose_line_block div p {
+	padding: 10px 10px 10px 40px;
+}
+
+#wide_content {
+	padding: 10px 10px 10px 60px;
+}
+
+.notes {	
+  font-size: 13px;
+  font-family: "Helvetica Neue";
+  color: rgb(79, 91, 116);
+  line-height: 1.385;
+  text-align: left;
+  margin-top: 100px;
+}
+
+.look_around_text_header {
+  font-size: 26px;
+  font-family: "Trebuchet MS";
+  color: rgb(84, 122, 205);
+  line-height: 0.769;
+  text-align: left;
+  padding: 10px;
+  margin: 5px;
+}
+
+.content_look_around_block blockquote {
+  margin: 15px 15px 35px 15px;
+}
+
+.blockquote {
+	margin: 15px;
+	padding: 0 0 0 75px; 
+	position: relative;
+	width: 370px; 	
+}
+
+.blockquote img {
+	left: 0;
+	position: absolute;
+	top: 0;	
+}
+
+.blockquote_header {
+  font-size: 13px;
+  font-family: "Helvetica Neue";
+  color: rgb(70, 70, 70);
+  line-height: 1.308;
+  text-align: left;
+}
+
+.blockquote_footer {  
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(70, 70, 70);  
+  line-height: 1.417;
+  text-align: left;  
+}
+
+.search_header_text {	
+	font-size: 26px;
+	font-family: "Trebuchet MS";
+	color: rgb(84, 122, 205);
+	line-height: 0.692;
+	text-align: left;
+	text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.235);
+	padding: 10px;
+  margin: 5px;
+}
+
+#indian_dating {
+	padding: 10px;
+  margin: 5px;
+}
+
+.bar {
+	margin-top: 10px;
+}
+
+.bar table {	
+	padding: 10px;
+  margin: 5px;
+}
+
+#search_text_input {	
+	height: 25px;	
+	width: 350px;   
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#indian_dating p {
+  font-size: 12px;
+  font-family: "Helvetica Neue";
+  color: rgb(204, 204, 204);
+  line-height: 1.25;
+  text-align: left;
+}
+
+.pagination ul {
+	margin-right: 65px;
+}
+
+.pagination ul li {
+	display: inline;
+	padding-left: 10px;
+}
+
+.single_blog {
+	width: 320px;
+	height: 80px;
+}
+
+.content_related_search_block {
+	padding: 10px;
+  margin: 5px 5px 35px 5px;
+  width: 100%;
+ 	height: 100px;
+}
+
+.community_about_dating {	
+	margin-top: 50px;
+	width: 900px;
+	float: left;
+}
+
+.community_about_dating_block {
+	display: inline-table;
+	width: 300px;	
+	font-size: 12px;
+ 	font-family: "Arial";
+	color: rgb(70, 70, 70);
+	line-height: 1.417;
+	text-align: left;  
+}
+
+.footer {
+	margin-top: 50px;	
+  margin-left: 200px;
+}
+
+.footer_menu a {
+	display: inline;
+}
+
+.community_about_dating_main_header {
+  font-size: 22px;
+  font-family: "Trebuchet MS";
+  color: rgb(60, 87, 135);
+  line-height: 0.773;
+  text-align: left;
+}
+
+.community_about_dating_headers {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(84, 122, 205);
+  font-weight: bold;
+  line-height: 1.214;
+  text-align: left;  
+}
+
+.community_about_dating_time {
+  font-size: 11px;
+  font-family: "Georgia";
+  color: rgb(144, 144, 144);
+  font-style: italic;
+  line-height: 1.545;
+  text-align: right; 
+}
+
+.default_not_visited {  
+  color: rgb(80, 120, 207);  
+  text-decoration: underline;  
+}
+
+.no_underline {
+	text-decoration: none;
+}
+
+.content_related_search_block h2 {
+  font-size: 20px;
+  font-family: "Trebuchet MS";
+  color: rgb(103, 102, 102);
+  line-height: 0.85;
+ 	text-align: left;  
+}
+
+.vertical {
+  color: rgb(80, 120, 207); 
+  padding-left: 5px; 
+}
+
+#second_menu {
+  margin-top: 10px;
+  margin-left: 110px;
+}
+
+#copyright {
+  margin-top: 30px;
+  margin-left: 180px;
+}
+
+#trading_name {
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+#copyright, #trading_name {
+  font-family: "Georgia";
+  color: rgb(144, 144, 144);
+}
+
+.items {
+  padding-left: 5px;
+}
+
+.related_search_items {
+  padding-right: 30px;
+}

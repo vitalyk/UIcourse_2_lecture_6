@@ -1,0 +1,102 @@
+body {
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+.upperline {
+  width: 196px;
+  height: 21px;
+  background-image: url("images/layer-32.png");
+}
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+.upperline span {
+  padding-left: 10px;
+  width: 158px;
+  height: 13px;
+  color: white;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.header_text {
+  color: white;
+  font-family: CCZoinksMedium;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  text-transform: uppercase;
+}
+/* header */
+header {
+  margin-top: 150px;
+  display: inline;
+}
+.slotoquest {
+  width: 500px;
+  height: 250px;
+}
+.slotoquest_block {
+  width: 500px;
+  height: 136px;
+  text-align: left;
+}
+.slotoquest_block img {
+  margin-right: 30px;
+}
+.slotoquest_image_777_text {
+  width: 300px;
+}
+.install {
+  width: 500px;
+  height: 110px;
+  margin-top: 200px;
+}
+.install_star {
+  width: 165px;
+  text-align: left;
+}
+/*main*/
+.container {
+  margin-top: 350px;
+  height: 300px;
+}
+.container_block {
+  width: 320px;
+  padding: 10px;
+}
+.container_block_text {
+  color: white;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.faces {
+  border-radius: 5px;
+  margin-right: 15px;
+  width: 77px;
+  height: 77px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.middle {
+  margin: 0 auto;
+}
+.vert_align_middle {
+  vertical-align: middle;
+}
+/*footer*/
+.footer_mid_align {
+  margin-top: 20px;
+  text-align: center;
+}
